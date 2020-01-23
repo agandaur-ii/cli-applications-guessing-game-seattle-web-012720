@@ -8,6 +8,10 @@ def run_guessing_game
   my_rand_number = pick_a_number
   
   if cp_rand_number == my_rand_number
+    return "You guessed the correct number!"
+  end
+  
+  if cp_rand_number != my_rand_number
     return 
   end
 end
