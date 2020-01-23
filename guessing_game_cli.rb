@@ -4,7 +4,7 @@ end
 
 def run_guessing_game
   cp_rand_number = rand(6) + 1
-  my_rand_number = pick_a_number
+  my_rand_number = pick_a_number.to_i
   
   puts "=" * 20
   pp cp_rand_number
