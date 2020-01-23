@@ -7,7 +7,7 @@ def run_guessing_game
   my_rand_number = pick_a_number
   
   if my_rand_number == "exit"
-    return "Goodbye!"
+    puts "Goodbye!"
   end
   
   if cp_rand_number == my_rand_number
