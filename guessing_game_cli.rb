@@ -4,7 +4,7 @@ end
 
 def run_guessing_game
   cp_rand_number = rand(6) + 1
-  my_rand_number = pick_a_number.to_i
+  my_rand_number = pick_a_number
   
   puts "=" * 20
   pp cp_rand_number
@@ -15,11 +15,11 @@ def run_guessing_game
     puts "Goodbye!"
   end
   
-  if cp_rand_number == my_rand_number
+  if cp_rand_number == my_rand_number.to_i
     puts "You guessed the correct number!"
   end
   
-  if cp_rand_number != my_rand_number
+  if cp_rand_number != my_rand_number.to_i
     puts "Sorry! The computer guessed #{cp_rand_number}."
   end
 end
