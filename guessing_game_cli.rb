@@ -4,7 +4,7 @@ def pick_a_number
 end
 
 def run_guessing_game
-  cp_rand_number = rand(2...5)
+  cp_rand_number = rand(6) + 1
   my_rand_number = pick_a_number
   
   if cp_rand_number == my_rand_number
