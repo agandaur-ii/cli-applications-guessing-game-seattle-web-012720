@@ -20,4 +20,4 @@ def run_guessing_game
   end
 end
 
-puts run_guessing_game
+pp run_guessing_game
