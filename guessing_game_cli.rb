@@ -12,7 +12,7 @@ def run_guessing_game
   puts "=" * 20
   
   if my_rand_number == "exit"
-    puts "Goodbye!"
+    return "Goodbye!"
   end
   
   if cp_rand_number == my_rand_number.to_i
