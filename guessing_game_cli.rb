@@ -19,3 +19,5 @@ def run_guessing_game
     return "Goodbye!"
   end
 end
+
+puts run_guessing_game
