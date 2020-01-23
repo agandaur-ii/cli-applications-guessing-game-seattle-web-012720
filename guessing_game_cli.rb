@@ -1,6 +1,6 @@
 def pick_a_number
   puts "Pick a random number between 1 and 6"
-  get.chomp
+  gets.chomp
 end
 
 def run_guessing_game
