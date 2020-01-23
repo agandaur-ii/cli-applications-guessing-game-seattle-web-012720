@@ -16,11 +16,11 @@ def run_guessing_game
   end
   
   if cp_rand_number == my_rand_number.to_i
-    puts "You guessed the correct number!"
+    return "You guessed the correct number!"
   end
   
   if cp_rand_number != my_rand_number.to_i
-    puts "Sorry! The computer guessed #{cp_rand_number}."
+    return "Sorry! The computer guessed #{cp_rand_number}."
   end
 end
 
