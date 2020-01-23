@@ -1,5 +1,4 @@
 def pick_a_number
-  puts "Pick a random number between 1 and 6"
   gets.chomp
 end
 
