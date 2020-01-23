@@ -12,6 +12,6 @@ def run_guessing_game
   end
   
   if cp_rand_number != my_rand_number
-    return 
+    return "Sorry! The computer guessed #{cp_rand_number}."
   end
 end
