@@ -16,7 +16,6 @@ def run_guessing_game
   end
   
   if my_rand_number == "exit"
-    return 'Goodbye!'
+    return "Goodbye!"
   end
-  
 end
