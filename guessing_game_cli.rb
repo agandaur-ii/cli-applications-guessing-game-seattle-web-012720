@@ -19,7 +19,9 @@ def run_guessing_game
     puts "You guessed the correct number!"
   end
   
-  puts "Sorry! The computer guessed #{cp_rand_number}."
+  if cp_rand_number != my_rand_number
+    puts "Sorry! The computer guessed #{cp_rand_number}."
+  end
 end
 
 puts run_guessing_game
