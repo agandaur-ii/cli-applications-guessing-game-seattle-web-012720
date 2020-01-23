@@ -18,4 +18,4 @@ def run_guessing_game
   puts "Sorry! The computer guessed #{cp_rand_number}."
 end
 
-pp run_guessing_game
+puts run_guessing_game
