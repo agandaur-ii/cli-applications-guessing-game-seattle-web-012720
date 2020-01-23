@@ -6,6 +6,10 @@ def run_guessing_game
   cp_rand_number = rand(6) + 1
   my_rand_number = pick_a_number
   
+  pp cp_rand_number
+  pp my_rand_number
+  
+  
   if my_rand_number == "exit"
     puts "Goodbye!"
   end
